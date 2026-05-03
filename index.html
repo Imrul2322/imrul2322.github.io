@@ -18,8 +18,7 @@
 				<!-- Intro -->
 					<div id="intro">
 						<h1 style="font-size: 3rem;">Md Imrul Kaish</h1>
-						<p>Data Scientist skilled in Python, R, SQL and Tableau. Experienced in data engineering, model building
-							and deployment in machine learning projects with cloud practice. </br>
+						<p>Solutions-focused IT professional with 3+ years designing and deploying scalable cloud and data architectures across municipal and enterprise environments. Proven record translating complex business requirements into end-to-end technical solutions spanning cloud infrastructure (AWS, GCP), data pipelines, and enterprise integrations.</br>
 							<a href="mailto:mdimrul.kaish01@gmail.com">Email</a>&nbsp;&nbsp;
 							<a href="https://linkedin.com/in/imrul2322">LinkedIn</a>&nbsp;&nbsp;
 							<a href="https://github.com/imrul2322">GitHub</a><br/>
@@ -74,6 +73,67 @@
 
 						<!-- Posts -->
 							<section class="posts">
+								
+
+								<article>
+									<header>
+
+										<h2>Warehouse-Native E-Commerce Customer Segmentation with BigQuery ML</h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/Customer_segmentation.png" alt="" /></a>
+									<p>Built a fully in-warehouse ELT pipeline on GCP using Dataform and BigQuery ML. Engineered 16 RFM, behavioral, and Haversine-based spatial features from TheLook eCommerce data to train a K-Means clustering model that auto-segments customers into actionable personas — no external compute required.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/Imrul2322/customer-segmentation-GCP" class="button">View Project</a></li>
+									</ul>
+								</article>
+
+								<article>
+									<header>
+
+										<h2>Real-Time Financial Fraud Detection Engine</h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/Financial_Fraud_Detection.png" alt="" /></a>
+									<p>A sub-100ms AWS streaming pipeline that detects payment fraud at scale using Apache Flink for stateful event processing, a hybrid XGBoost + Autoencoder ML model on SageMaker, and automated card-locking via Lambda — processing 500+ transactions per second.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/Imrul2322/fraud-detection-engine" class="button">View Project</a></li>
+									</ul>
+								</article>
+
+								<article>
+									<header>
+
+										<h2>CivicPulse 311 — Municipal Demand Intelligence Platform</h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/CivicPulse_Intelligence.png" alt="" /></a>
+									<p>A GCP-native ELT pipeline that ingests 4M+ annual LA 311 service requests via Socrata API, transforms and spatially enriches records in BigQuery, and delivers SLA compliance tracking, neighborhood equity analysis, and 30-day ML demand forecasting through Looker Studio dashboards.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/Imrul2322/civic-infrastructure-forecasting" class="button">View Project</a></li>
+									</ul>
+								</article>
+
+								<article>
+									<header>
+
+										<h2>Real-Time IoT Streaming Pipeline with FinOps Cost Optimization on Google Cloud</h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/FinOps_cost_optimization.png" alt="" /></a>
+									<p>Real-time GCP streaming pipeline ingesting IoT air quality sensor data end-to-end in under 30 seconds. Cloud Scheduler triggers a Cloud Function → Pub/Sub → Apache Beam on Dataflow → BigQuery with exactly-once delivery. ~70% cost savings via FlexRS, preemptible VMs & Streaming Engine. Full Terraform IaC.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/Imrul2322/finops-streaming-pipeline-gcp" class="button">View Project</a></li>
+									</ul>
+								</article>
+
+								<article>
+									<header>
+										<h2>Cross-Account Serverless Data Lake Orchestration on AWS</h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/Cross-Account_Serverless_Data_Lake.png" alt="" /></a>
+									<p>A production-grade AWS Data Lakehouse that separates storage (Account A) from compute (Account B) using zero-trust cross-account IAM, Glue PySpark ETL, MWAA orchestration, and Redshift Serverless with a Kimball star schema — fully automated via CloudFormation.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/Imrul2322/cross-account-data-lake" class="button">View Project</a></li>
+									</ul>
+								</article>
+
 								<article>
 									<header>
 
@@ -83,29 +143,6 @@
 									<p>Using proposed discriminative analysis algorithm, DNA, we can rank features in a dataset and perform feature selection. Using only 1% features, we obtained similar prediction accuracy with shorter convergence time in supervised and unsupervised learning settings.</p>
 									<ul class="actions special">
 										<li><a href="https://github.com/Imrul2322/Feature-Selection-using-Discriminative-Analysis" class="button">View Project</a></li>
-									</ul>
-								</article>
-
-								<article>
-									<header>
-
-										<h2>Data Wrangling and Extract Useful Information from a complex data</h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/main_dashboard.png" alt="" /></a>
-									<p>I worked with data that required data wrangling to retrieve information that was useful. created a relational database with tables employing several pieces of data, including nations, regions, clients, goods, and orders. Identify the top-selling items, nations, and regions for each category (for example, Country) based on the total quantity of sales. Finally, additional very interesting information has been provided using dashboard in Tableau.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/Imrul2322/Data-Wrangling-and-Extract-information-using-Python-and-SQL" class="button">View Project</a></li>
-									</ul>
-								</article>
-
-								<article>
-									<header>
-										<h2>Data Exploration, Visualization and Correlation with COVID-19 data</h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/gvac_report.png" alt="" /></a>
-									<p>USA was one of the biggest victim of COVID-19 in terms of COVID-19 cases, death counts. From visualization first and second wave of COVID-19 in US can be observed clearly. Total death count was highest in Europe among continents. Vaccinations started in USA on December 2020 and by May 2022, 66.65% people were fully vaccinated. Most of the countries in Africa, were in shortage of vaccine, vaccination rate is very low. Though China was the source of COVID-19, impact was very low in China, where USA was the biggest victim.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/Imrul2322/Data-Cleaning-Explroration-and-Visualization" class="button">View Project</a></li>
 									</ul>
 								</article>
 								
@@ -131,7 +168,7 @@
 						<section class="split contact">
 							<section class="alt">
 								<h3>Address</h3>
-								<p>1484 Avon Ln, North Lauderdale, FL 33068</p>
+								<p>5020 Obama Blvd, Los Angeles, CA 90016</p>
 							</section>
 							<section>
 								<h3>Phone</h3>
@@ -139,12 +176,11 @@
 							</section>
 							<section>
 								<h3>Email</h3>
-								<p><a href="mailto:mdimrul.kaish01@gmail.com">mdimrul.kaish01@gmail.com</a></p>
+								<p><a href="mailto:mdimrul.kaish01@gmail.com">imrulkaish007@gmail.com</a></p>
 							</section>
 							<section>
 								<h3>Social</h3>
 								<ul class="icons alt">
-									<li><a href="https://linkedin.com/in/imrul2322" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
 									<li><a href="https://www.github.com/imrul2322" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
 								</ul>
 							</section>
